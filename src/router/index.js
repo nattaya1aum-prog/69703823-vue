@@ -29,6 +29,21 @@ const routes = [
     path: '/golds',
     name: 'golds',
     component: () => import( '../views/Api_golds.vue')
+  },
+  {
+    path: '/products_Api',
+    name: 'products_Api',
+    component: () => import( '../views/Product_api.vue')
+  },
+  {
+    path: '/products_Table',
+    name: 'products_Table',
+    component: () => import( '../views/Product_table.vue')
+  },
+  {
+    path: '/users',
+    name: 'users',
+    component: () => import( '../views/User.vue')
   }
 ]
 
